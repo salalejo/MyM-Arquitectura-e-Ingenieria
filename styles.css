@@ -1,5 +1,14 @@
-.header{
-    
+h1{
+    color:aliceblue;
+    text-align:center;
+}
+
+.card{
+    background-color:#4e535c;
+}
+.padding-top{
+    padding-top: 1.5rem;
+    color:aliceblue;
 }
 
 .brand-logo{
@@ -16,3 +25,22 @@
     margin-left: auto;
     padding-right: 10%;
 }
+
+#quienes-somos{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5rem;
+    width: 40%;
+    margin:auto;
+}
+#container-botones-empleados{
+    padding-top: 3rem;
+    margin:auto;
+    text-align:center;
+    padding-bottom: 5rem;
+}
+
+#cards-proyectos{
+    padding-top: 2rem;
+}
+
