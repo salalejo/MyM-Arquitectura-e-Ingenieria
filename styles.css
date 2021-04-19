@@ -1,7 +1,22 @@
 .header{
-    color:aliceblue;
+    position: relative;
+    z-index: 5;
+}
+
+.brand-logo{
+    padding-left: 10%;
 }
 
 #container-carousel{
     padding: 0;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    top: -250px;
+    
+}
+
+#option-links{
+    margin-left: auto;
+    padding-right: 10%;
 }
