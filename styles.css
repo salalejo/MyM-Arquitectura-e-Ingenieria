@@ -40,6 +40,10 @@ h1{
     padding-bottom: 5rem;
 }
 
+#container-botones-empleados .btn{
+    margin-top: 1rem;
+}
+
 #cards-proyectos{
     padding-top: 2rem;
 }
