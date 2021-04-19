@@ -2,6 +2,10 @@ h1{
     color:aliceblue;
     text-align:center;
 }
+p{
+    color:aliceblue;
+    text-align:center;
+}
 
 .card{
     background-color:#4e535c;
@@ -13,6 +17,22 @@ h1{
 
 .brand-logo{
     padding-left: 10%;
+}
+
+.container-contacto{
+    padding-top: 3rem;
+    text-align: center;
+
+}
+
+.container-contacto .btn{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container-contacto p{
+    padding-top: 2rem;
+    
 }
 
 #container-carousel{
@@ -47,4 +67,6 @@ h1{
 #cards-proyectos{
     padding-top: 2rem;
 }
+
+
 
