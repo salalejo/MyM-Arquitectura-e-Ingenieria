@@ -1,10 +1,23 @@
 h1{
     color:aliceblue;
-    text-align:center;
+    text-align: center;
 }
 p{
     color:aliceblue;
-    text-align:center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+ @media (min-width: 650px)  {
+     p{
+        width: 620px;
+        margin: auto;
+     }
+ }
+
+.text-align-center{
+    text-align: center;
 }
 
 .card{
