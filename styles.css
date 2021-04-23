@@ -10,7 +10,7 @@ p{
 
 }
  @media (min-width: 650px)  {
-     p{
+     #descripcion-empresa{
         width: 620px;
         margin: auto;
      }
@@ -29,9 +29,12 @@ p{
 }
 
 .container-about{
-    padding-bottom: 200px;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    text-align: center;
+    
+}
+
+.bg-head-bot{
+    background-color: #141414; 
 }
 
 .card{
@@ -63,9 +66,30 @@ p{
 }
 
 .img-about{
-    width: 15rem;
-    height: 15rem;
+    display: inline-block;
     padding-top: 20px;
+    margin: auto;
+}
+
+.descripcion-empleado{
+    display: inline-block;
+    margin: auto;
+}
+
+#last-container{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.media-links{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.media-links:hover{
+    color: rgba(250, 251, 252, 0.623);
 }
 
 #container-carousel{
@@ -101,5 +125,34 @@ p{
     padding-top: 2rem;
 }
 
+#profile-pic-mario{
+    position:relative;
+    left: 450px;
+}
 
+#descripcion-mario{
+    position: relative;
+    right: 380px;
+}
+
+#info-creador{
+    padding-top: 50px;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+#link-alejo{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media (max-width: 874px){
+    #profile-pic-mario{
+        position: inherit;
+    }
+    
+    #descripcion-mario{
+        position: inherit;
+    }
+}
 
