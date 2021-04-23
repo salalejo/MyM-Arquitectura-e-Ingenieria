@@ -10,9 +10,10 @@
     
     <!-- Our CSS -->
     <link rel="stylesheet" href="styles.css">
+    
     <title>Acerca de</title>
 </head>
-<body class="bg-dark">
+<body class="bg-dark" onload='inicializa();'>
 
     <header class="header">
         <div class="bg-dark">
@@ -24,7 +25,7 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav" id="option-links">
+                        <div class="navbar-nav option-links">
                           <a class="nav-link" href="#">Proyectos</a>
                           <a class="nav-link" href="about.html">Acerca de</a>
                           <a class="nav-link" href="#">Contacto</a>
@@ -44,5 +45,35 @@
         </div>
     </div>
 
+    <div class="container-fluid padding-top container-about">
+        <h1 class="padding-top">Nuestro equipo</h1>
+        <div class="d-flex justify-content-center padding-top">
+            <img src="img/mateo.png" alt="mateo-arquitecto" class="img-fluid img-about">
+            <ul class="padding-top">
+                <li>Arquitecto egresado del Colegio Mayor de Antioquia</li>
+                <li>Arquitecto principal Constructora Beaver 2019-actual</li>
+                <li>Consultor arquitectónico Parrioquia de Santa Rosa de Osos</li>
+                <li>Especialista en Arquitectura contemporánea y colonial</li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center padding-top">
+            
+            <ul class="padding-top" style=>
+                <li>Arquitecto egresado del Colegio Mayor de Antioquia</li>
+                <li>Arquitecto principal Constructora Beaver 2019-actual</li>
+                <li>Consultor arquitectónico Parrioquia de Santa Rosa de Osos</li>
+                <li>Especialista en Arquitectura contemporánea y colonial</li>
+            </ul>
+            <img src="img/mario.png" alt="mario-ingeniero" class="img-fluid img-about">
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+    <!-- Our JavaScript -->
+    <script src="main.js"></script>
 </body>
 </html>
