@@ -30,6 +30,8 @@ p{
 
 .container-about{
     padding-bottom: 200px;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .card{
@@ -61,7 +63,8 @@ p{
 }
 
 .img-about{
-    width: 200px;
+    width: 15rem;
+    height: 15rem;
     padding-top: 20px;
 }
 
